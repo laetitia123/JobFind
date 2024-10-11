@@ -18,11 +18,11 @@ import MainNav from "@/components/Navigation/MainNav.vue";
 export default {
   name: "App",
   components: { MainNav },
-  //   mounted() {
-  //   if (typeof window.adsbygoogle !== 'undefined') {
-  //     window.adsbygoogle = window.adsbygoogle || [];
-  //     window.adsbygoogle.push({});
-  //   }
-  // }
+    mounted() {
+    if (typeof window.adsbygoogle !== 'undefined') {
+      window.adsbygoogle = window.adsbygoogle || [];
+      window.adsbygoogle.push({});
+    }
+  }
 };
 </script>
