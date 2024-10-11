@@ -5,8 +5,8 @@
     5frfcrdwfcdfe
     <ins class="adsbygoogle"
              style="display:block"
-             data-ad-client="ca-pub-0000000000000000" 
-             data-ad-slot="1234567890"               
+             data-ad-client="ca-pub-6089897197300222" 
+             data-ad-slot="5705196208"             
              data-ad-format="auto"></ins>
   </div>
   <router-view />
