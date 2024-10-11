@@ -2,11 +2,11 @@
   <!-- Google AdSense Test Ad -->
  <div class="ad-container">
       <!-- Google AdSense Test Ad -->
-      <!-- <ins class="adsbygoogle"
+      <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-0000000000000000" 
            data-ad-slot="1234567890"               
-           data-ad-format="auto"></ins> -->
+           data-ad-format="auto"></ins>
     </div>
   <the-hero />
 </template>
@@ -17,7 +17,12 @@ import TheHero from "@/components/JobSearch/TheHero.vue";
 export default {
   name: "HomeView",
   components: { TheHero },
-
+  mounted() {
+    if (typeof window.adsbygoogle !== 'undefined') {
+      window.adsbygoogle = window.adsbygoogle || [];
+      window.adsbygoogle.push({});
+    }
+  }
 };
 
 
